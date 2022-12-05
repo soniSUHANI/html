@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--meta code must be added-->
+  <!---------------- Tiitle ----------------->
+  <title>eFresh Store</title>
+  <!--------------Stylesheet------------------>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!--Favicon ------->
+  <link rel="shortcut icon" href="images/favicon.png" />
+  <!----using fontawesome-------->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.0/css/all.css" integrity="sha384-eLT4eRYPHTmTsFGFAzjcCWX+wHfUInVWNm9YnwpiatljsZOwXtwV2Hh6sHM6zZD9" crossorigin="anonymous" />
+
+  <!---==Import font family--->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,
+    600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navigation  ------>
+  <nav class="navigation">
+    <!----logo--->
+    <a href="index.html" class="logo">
+      <span>e</span>Fresh
+    </a>
+    <!--menu-btn-->
+    <input type="checkbox" class="menu-btn" id="menu-btn">
+    <label for="menu-btn" class="menu-icon">
+      <span class="nav-icon"></span>
+    </label>
+    <!--- menu------>
+    <ul class="menu">
+      <li><a href="index.html" class="active">Revolution</a></li>
+      <li><a href="#category">Products</a></li>
+      <li><a href="#popular-bundle-pack">Advantages</a></li>
+      <li><a href="#download-app">Contact us</a></li>
+    </ul>
+    <!---- right-nav-(cart-like)--->
+    <div class="right-nav">
+      <!---like----->
+      <a href="#" class="like">
+        <i class="far fa-heart"></i>
+        <span>0</span>
+      </a>
+      <!---cart----->
+      <a href="#" class="cart">
+        <i class="fa fa-shopping-cart"></i>
+        <span>0</span>
+      </a>
+
+    </div>
+  </nav>
+  <!--nav-end---------->
+  <!-- Search-banner=--->
+  <section id="search-banner">
+    <!---bg------>
+    <img src="images/tomato.png" class="bg-1" alt="bg">
+    <img src="images/salad.png" class="bg-2" alt="bg-2">
+
+    <!---text---->
+    <div class="search-banner-text">
+      <h1>Order your groceries for the day</h1>
+      <strong>#Free Delivery</strong>
+      <!---search box----->
+      <form class="search-box" action="">
+        <!--icon---->
+        <i class="fas fa-search"></i>
+        <!---input-->
+        <input type="text" class="search-input" placeholder="Search your daily grocery" name="search" required>
+        <!--btn---->
+        <input type="submit" class="btn" value="Search">
+
+      </form>
+
+    </div>
+
+  </section>
+  <!--search-banner-end------->
+  <!--category--->
+  <section id="category">
+    <!---heading--->
+    <div class="category-heading">
+      <h2>Categories</h2>
+      <span></span>
+    </div>
+    <!--box-container-->
+    <div class="category-container">
+      <!---box---->
+      <a href="#" class="category-box">
+        <img src="images/fish.png" alt="Fish" width="70px" height="70px">
+        <span>Fish & Meat</span>
+      </a>
+      <a href="#" class="category-box">
+        <img src="images/vegetable.png" alt="Fish" width="70px" height="70px">
+        <span>Vegetables</span>
+      </a>
+      <a href="#" class="category-box">
+        <img src="images/medicine.png" alt="Fish" width="70px" height="70px">
+        <span>Medicine</span>
+      </a>
+      <a href="#" class="category-box">
+        <img src="images/baby.png" alt="Fish" width="70px" height="70px">
+        <span>Baby</span>
+      </a>
+      <a href="#" class="category-box">
+        <img src="images/office.png" alt="Fish" width="70px" height="70px">
+        <span>Office</span>
+      </a>
+      <a href="#" class="category-box">
+        <img src="images/beauty.png" alt="Fish" width="70px" height="70px">
+        <span>Beauty</span>
+      </a>
+      <a href="#" class="category-box">
+        <img src="images/gardening.png" alt="Fish" width="70px" height="70px">
+        <span>Gardening</span>
+      </a>
+    </div>
+  </section>
+  <!--category-end-->
+  <!---Popular-products-->
+  <section id="popular-product">
+    <!---heading-->
+    <div class="product-heading">
+      <h3>Today's Offers </h3>
+      <span></span>
+    </div>
+    <!---product-box-container-->
+    <div class="product-container">
+      <!---box---->
+      <div class="product-box">
+        <img src="images/apple.jpg" alt="apple">
+        <strong>Apple</strong>
+        <span class="quantity">1 KG</span>
+        <span class="price">₹90 </span>
+        <!--cart-btn--->
+        <a href="#" class="cart-btn">
+          <i class="fas fa-shopping-bag"></i> Add to Cart
+        </a>
+        <!--heart-btn-->
+        <a href="#" class="like-btn">
+          <i class="far fa-heart"></i>
+        </a>
+      </div>
+      <div class="product-box">
+        <img src="images/orange.jpg" alt="orange">
+        <strong>Orange</strong>
+        <span class="quantity">1 KG</span>
+        <span class="price">₹100</span>
+        <!--cart-btn--->
+        <a href="#" class="cart-btn">
+          <i class="fas fa-shopping-bag"></i> Add to Cart
+        </a>
+        <!--heart-btn-->
+        <a href="#" class="like-btn">
+          <i class="far fa-heart"></i>
+        </a>
+      </div>
+      <div class="product-box">
+        <img src="images/cauliflower.jpg" alt="cauliflower">
+        <strong>Cauliflower</strong>
+        <span class="quantity">1 KG</span>
+        <span class="price">₹35</span>
+        <!--cart-btn--->
+        <a href="#" class="cart-btn">
+          <i class="fas fa-shopping-bag"></i> Add to Cart
+        </a>
+        <!--heart-btn-->
+        <a href="#" class="like-btn">
+          <i class="far fa-heart"></i>
+        </a>
+      </div>
+      <div class="product-box">
+        <img src="images/onion.jpg" alt="onion">
+        <strong>Onion</strong>
+        <span class="quantity">1 KG</span>
+        <span class="price">₹25</span>
+        <!--cart-btn--->
+        <a href="#" class="cart-btn">
+          <i class="fas fa-shopping-bag"></i> Add to Cart
+        </a>
+        <!--heart-btn-->
+        <a href="#" class="like-btn">
+          <i class="far fa-heart"></i>
+        </a>
+      </div>
+      <div class="product-box">
+        <img src="images/potato.jpg" alt="apple">
+        <strong>Potato</strong>
+        <span class="quantity">1 KG</span>
+        <span class="price">₹30</span>
+        <!--cart-btn--->
+        <a href="#" class="cart-btn">
+          <i class="fas fa-shopping-bag"></i> Add to Cart
+        </a>
+        <!--heart-btn-->
+        <a href="#" class="like-btn">
+          <i class="far fa-heart"></i>
+        </a>
+      </div>
+      <div class="product-box">
+        <img src="images/lemon.jpg" alt="lemon">
+        <strong>Lemon</strong>
+        <span class="quantity">500 G</span>
+        <span class="price">₹60</span>
+        <!--cart-btn--->
+        <a href="#" class="cart-btn">
+          <i class="fas fa-shopping-bag"></i> Add to Cart
+        </a>
+        <!--heart-btn-->
+        <a href="#" class="like-btn">
+          <i class="far fa-heart"></i>
+        </a>
+      </div>
+      <div class="product-box">
+        <img src="images/mango.jpg" alt="mango">
+        <strong>Mango</strong>
+        <span class="quantity">1 KG</span>
+        <span class="price">₹350</span>
+        <!--cart-btn--->
+        <a href="#" class="cart-btn">
+          <i class="fas fa-shopping-bag"></i> Add to Cart
+        </a>
+        <!--heart-btn-->
+        <a href="#" class="like-btn">
+          <i class="far fa-heart"></i>
+        </a>
+      </div>
+      <div class="product-box">
+        <img src="images/raddish.jpg" alt="raddish">
+        <strong>Radish</strong>
+        <span class="quantity">1 KG</span>
+        <span class="price">₹40</span>
+        <!--cart-btn--->
+        <a href="#" class="cart-btn">
+          <i class="fas fa-shopping-bag"></i> Add to Cart
+        </a>
+        <!--heart-btn-->
+        <a href="#" class="like-btn">
+          <i class="far fa-heart"></i>
+        </a>
+      </div>
+      <div class="product-box">
+        <img src="images/carrot.jpg" alt="carrot">
+        <strong>Carrot</strong>
+        <span class="quantity">1 KG</span>
+        <span class="price">₹70</span>
+        <!--cart-btn--->
+        <a href="#" class="cart-btn">
+          <i class="fas fa-shopping-bag"></i> Add to Cart
+        </a>
+        <!--heart-btn-->
+        <a href="#" class="like-btn">
+          <i class="far fa-heart"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
